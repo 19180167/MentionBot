@@ -1,10 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Harshit Sharma + Abhimanyu Singh + Krishna Ki Diwani
-
-
-
 
 import os, logging, asyncio
 from telethon import Button
