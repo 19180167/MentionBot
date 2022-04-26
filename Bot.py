@@ -1,11 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Harshit Sharma + Abhimanyu Singh + Krishna Ki Diwani
-
-
-
-
 import os, logging, asyncio
 from telethon import Button
 from telethon import TelegramClient, events
@@ -32,21 +24,16 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "**ʜᴇʟʟᴏ sᴡᴇᴇᴛ ʜᴇᴀʀᴛ ɪ ᴀᴍ ᴀsᴀᴅ ᴀʟᴇxᴀ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ** 👻\n**ᴄʟɪᴄᴋ ᴏɴ** /help **ғᴏʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ**\n\n**ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ** [ʟᴏᴠᴇ](https://t.me/Give_Me_Heart) **ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ**",
+    "**ʜᴇʟʟᴏ sᴡᴇᴇᴛ ʜᴇᴀʀᴛ ɪ ᴀᴍ ᴀsᴀᴅ mh ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ** 👻\n**ᴄʟɪᴄᴋ ᴏɴ** /help **ғᴏʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ**\n\n**ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ** [ʟᴏᴠᴇ](https://t.me/mr_theherd) **ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ**",
     link_preview=False,
     buttons=(
       [
-        Button.url('⚙️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚙️', 'https://t.me/Alexa_MentionBot?startgroup=true'),
-        Button.url('👥 ɢʀᴏᴜᴘ 👥︎', 'https://t.me/Shayri_Music_Lovers'),
+        Button.url('⚙️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚙️', 'https://t.me/MHMentionBot?startgroup=true'),
+        Button.url('👥 ɢʀᴏᴜᴘ 👥︎', 'https://t.me/wsbmusikgc'),
         ],
         [
-        Button.url('📣 ᴄʜᴀɴɴᴇʟ 📣️', 'https://t.me/AsadSupport'),
-        Button.url('👸 ǫᴜᴇᴇɴ 👸︎', 'https://t.me/Sonali_rajputt_Queen_Of_ROCKS'),
-        ],
-        [
-        Button.url('❤️ ʙʀᴏ ❤️️', 'https://t.me/HarshitSharma361'),
-        Button.url('👑 ᴋɪɴɢ 👑︎', 'https://t.me/Dr_Asad_Ali'),
-      ]
+        Button.url('📣 ᴄʜᴀɴɴᴇʟ 📣️', 'https://t.me/MH_Projects'),
+        ]
     )
   )
                     
@@ -59,22 +46,22 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('❤️ ʜᴇᴀʀᴛ ❤️', 'https://t.me/Give_Me_Heart'),
-        Button.url('📽️ ʏᴏᴜᴛᴜʙᴇ 📽️', 'https://www.youtube.com/c/JankariKiDuniya')
+        Button.url('❤️ ʜᴇᴀʀᴛ ❤️', 'https://t.me/mr_theherd'),
+        Button.url('📽️ ʏᴏᴜᴛᴜʙᴇ 📽️', 'https://youtube.com/channel/UCs5naByLDF-XNWjOOLENTRg')
       ]
     )
   )
 
 @client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
-  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀsᴀᴅ ᴀʟᴇxᴀ**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [ᴀsᴀᴅ ᴀʟɪ](https://t.me/Dr_Asad_Ali)**\n**__ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs__**\n**ʏᴏᴜᴛᴜʙᴇ** [ᴄʜᴀɴɴᴇʟ](https://www.youtube.com/c/JankariKiDuniya)\n**ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ**."
+  helptext = "**ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ mh mention**\n\n**ᴍʏ ᴏᴡɴᴇʀ ɪs [MBUL](https://t.me/mr_theherd)**\n**__ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ MH__**\n**ʏᴏᴜᴛᴜʙᴇ** [ᴄʜᴀɴɴᴇʟ](https://youtube.com/channel/UCs5naByLDF-XNWjOOLENTRg)\n**ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ**."
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url('❤️ ʜᴇᴀʀᴛ ❤️', 'https://t.me/Give_Me_Heart'),
-        Button.url('📽️ ʏᴏᴜᴛᴜʙᴇ 📽️', 'https://www.youtube.com/c/JankariKiDuniya')
+        Button.url('❤️ ʜᴇᴀʀᴛ ❤️', 'https://t.me/mr_theherd'),
+        Button.url('📽️ ʏᴏᴜᴛᴜʙᴇ 📽️', 'https://youtube.com/channel/UCs5naByLDF-XNWjOOLENTRg')
       ]
     )
   )
@@ -156,10 +143,3 @@ async def cancel_spam(event):
 
 print(">> ASAD ALEXA WORKING <<")
 client.run_until_disconnected()
-
-
-
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Harshit Sharma + Abhimanyu Singh + Krishna Ki Diwani
